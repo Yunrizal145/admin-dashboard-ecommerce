@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	font-family: "Source Sans 3", sans-serif;
+}
